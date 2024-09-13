@@ -61,6 +61,7 @@ module.exports = {
     
           'max-xl': {'max': '1150px'},
           // => @media (max-width: 1279px) { ... }
+          'min-1xl': {'max': '1400px'},
           'max-1xl': {'max': '1200px'},
           'min-1200': {'min': '1201px'},
           'max-800px': {'max': '800px'},
@@ -76,6 +77,7 @@ module.exports = {
           'max-600': {'max': '600px'},
           'min-600': {'min': '600px'},
           'max-500': {'max': '500px'},
+          'min-500': {'min': '500px'},
 
           'max-sm': {'max': '1273px'},
           // => @media (max-width: 639px) { ... }
