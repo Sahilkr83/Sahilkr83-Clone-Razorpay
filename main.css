@@ -29,7 +29,6 @@ nav.scrolled{
 .blur-2{
     right: -15px;
     background: linear-gradient(to left, white,white, transparent);
-
 }
 
 .card-nav-not-op{
@@ -173,8 +172,18 @@ nav.scrolled{
 
     
 }
+@media (max-width : 1500px){
+    .blur-1{
+        left: -190px;
+    }
+    .blur-2{
+        right: -90px;
+    }
+}
 @media (max-width : 1200px){
-    
+    .blur{
+        display: none;
+    }
     nav.scrolled{
         opacity: 1;
     }
