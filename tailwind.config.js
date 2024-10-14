@@ -87,6 +87,10 @@ module.exports = {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
         },
+        'loop-scroll-1': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
         'up': {
           from: { transform: 'translateY(-10px)' },
           to: { transform: 'translateY(-60px)' },
@@ -144,6 +148,7 @@ module.exports = {
           },
       },
       animation: {
+        'loop-scroll-1': 'loop-scroll 45s linear infinite',
         'loop-scroll': 'loop-scroll 100s linear infinite',
         'up': 'up 450ms ease-in-out forwards',
         'up-2': 'up-2 300ms ease-in-out forwards',
