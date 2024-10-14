@@ -158,7 +158,7 @@ nav.scrolled{
     left: 0;
     right: 0;
     pointer-events: none;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     z-index: 49;
 }
 .overlayactive {
