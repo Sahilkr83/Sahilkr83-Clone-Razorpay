@@ -6,7 +6,6 @@
     <title>Razorpay - Best Payment Solution for Online Payments India</title>
     <link rel="icon"  href="/images/favicon.png" type="image/gif" >
     <link rel="stylesheet" href="main.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <style>
            #read-more:checked ~ #content{
             display: block;
@@ -23,13 +22,15 @@
            #read-more:checked ~ #word{
             visibility: visible;
            }
+           
 
     </style>
 </head>
-<body class="flex flex-col justify-center w-[100vw] overflow-x-hidden" style="background: -webkit-linear-gradient(320deg, hsla(0, 0%, 100%, 1) 45%, rgb(212, 252, 252) 87%, hsla(0, 0%, 100%, 1) 98%);">
- 
+<body class="flex flex-col justify-center w-[100vw] ">
+  <div class="wrapper">
+    
   <!-- side Menu -->
-   <aside class="aside-section right-0 text-[12px] top-16 fixed w-[320px] z-50 bg-white h-[100vh]">
+   <aside class="aside-section right-0 text-[12px] top-[71px] fixed w-[320px] z-50 bg-white h-[100vh]">
        <div class=" flex flex-col items-center min-h-[1150px]">
         <div class="flex w-full pl-[18px] h-[44px] gap-[150px]">
           <div class="flex gap-2 items-center">
@@ -172,7 +173,7 @@
   
   
      <!-- Nav section -->
-  <nav class="nav w-[100vw]   flex justify-center z-50  ">
+  <nav class="nav w-[100vw]   flex justify-center z-[49]  ">
         <div class="navbar items-center max-1xl:w-[100vw]  min-1200:w-[100vw] max-1xl:px-5 max-1xl:py-3 object-cover max-1xl:h-[72px] max-w-[1184px] px-2  z-50 flex justify-between "> 
          
             <div class=" flex justify-between ">
@@ -262,11 +263,11 @@
            </div>
            <div class="min-1200:hidden relative -left-[12px] flex w-[135px] justify-between pr-1">
            <button class="py-3  px-5 w-[106px] flex justify-between  rounded text-[16px] border-[1px] h-[48px] font-bold  text-center text-blue-600 border-blue-600">
-            Login <span class="relative -top-2 pl-1 text-[25px]"> →</span>
+            Login <span class="relative top-[1px] opacity-55 pl-1 text-[14px]"> <i class="fa-solid fa-arrow-right"></i></span>
            </button>
            <div class="relative">
-            <img  src="./icon/more.svg" alt="" width="21px " class="side-bar relative top-2 left-1" >
-            <i class="fa-solid fa-xmark absolute top-3 -left-[12px] text-[20px] close text-gray-400" id="close"></i>
+            <img  src="./icon/more.svg" alt="" width="18px " class="side-bar relative top-2 left-1" >
+            <i class="fa-solid fa-xmark absolute top-3 -left-[12px] text-[20px] close text-gray-400 opacity-10" id="close"></i>
            </div>
           </div>
 
@@ -276,7 +277,6 @@
     </nav>
 
 <!-- hero section -->
-
     <section class="pt-10 flex justify-center   flex-shrink-0  max-1xl:pt-[32px] " style="background: -webkit-linear-gradient(320deg, hsla(0, 0%, 100%, 1) 45%, rgb(212, 252, 252) 87%, hsla(0, 0%, 100%, 1) 98%);">
     <div class="  w-[100vw]  to-blue-500 overflow-clip justify-between" >
     <div class="flex relative max-1xl:flex-col-reverse max-1xl: flex-row-reverse max-800px:h-[687px] z-0 mx-auto overflow-clip max-800px:justify-between  w-[1184px] max-1xl:w-[740px] h-[500px] max-1xl:h-[830px]">
@@ -297,8 +297,8 @@
             <p class=" mt-1 text-gray-500 max-1xl:hidden" >100+ Payment Methods | Easy Integration | Powerful Dashboard</p>
             </div>
             <div class="flex mt-5 max-600:mt-0">
-                <button class="flex  space-x-1 bg-blue-600 py-1 px-6 rounded-sm h-[40px] max-1xl:h-[48px] max-1xl:w-[164px] max-1xl:text-[16px]  items-center justify-between text-white font-semibold hover:bg-blue-700">
-                    <h4 class="text-sm max-600:text-xs"> Sign Up Now </h4> <h5><span class="text-xl font-thin text-center ">→</span></h5>
+                <button id="btn" class="flex  space-x-1 bg-blue-600 py-1 px-6 rounded-[4px] h-[40px] max-1xl:h-[48px] max-1xl:w-[164px] max-1xl:text-[16px]  items-center justify-between text-white font-semibold hover:bg-blue-700">
+                    <h4 class="text-sm max-600:text-xs"> Sign Up Now </h4> <h5><span class="text-[17px] opacity-60  relative right-2 "><i class="fa-solid fa-arrow-right font-thin" ></i></span></h5>
                    </button>
                    <button class="py-2 max-1xl:hidden px-5 font-mullish text-center text-blue-600 font-semibold">
                     Know More
@@ -386,11 +386,11 @@
 </section>
 
 <!-- Card section -->
- <section class="card">
+ <section class="all-cards">
 
 
   <!-- Card Heading section -->
-<section class="pt-[88px] max-1xl:pl-10 max-800px:pt-[50px] pb-6 max-1xl:px-5 w-[100vw]" >
+<section class="pt-[88px] max-1xl:pl-10 max-800px:pt-[50px] pb-6 max-1xl:pb-[0px] max-1xl:px-5 w-[100vw]" >
   <div class="flex relative flex-col min-1200:max-w-[1188px]  left-[50%] translate-x-[-50%] h-[164px] max-1xl:h-fit justify-between  font-bold w-[100vw]">
     <h1 class="md:text-[56px] max-md:text-[36px] leading-[1.1] tracking-wide font-extrabold " style="font-family: lato;">The all in one 
     <span class="text-greenLight">finance platform</span> <br>you've been looking for</h1>
@@ -412,7 +412,7 @@
 </section >
 
 <!-- card nav section -->
-<section class="card-nav py-4   bg-white z-10 max-1xl:hidden px-[64px] w-[100vw]" >
+<section class="card-nav py-4   bg-[#f8fafc] z-10 max-1xl:hidden px-[64px] w-[100vw]" >
   <div class="flex justify-between relative left-[50%] translate-x-[-50%] w-[1188px] items-center">
     <div class="flex h-14 w-[826px] items-center gap-10 relative">
         <p class=" text-xl text- font-bold">Accept Payments <span class=" absolute w-40 h-1 left-0 bottom-0 bg-green-300 group-block "></span></p>
@@ -429,137 +429,144 @@
 </section>
 
 <!-- cards -->
-<section class="flex min-1200:justify-center max-1xl:w-[100vw]  max-800px:w-[100vw]">
+<section class=" flex min-1200:justify-center max-1xl:w-[100vw]   ">
+
 
     <section class=" flex max-1xl:w-[100vw]  flex-col  overflow-clip">
 
 
-    <section class="pt-[32px] min-1200:w-[1440px] min-1200:pl-28 justify-center max-1xl:w-[100vw] flex flex-col max-800px:w-[100vw]">
+    <section class=" card-start max-1xl:pt-[0px] justify-center max-1xl:w-[100vw] flex flex-col max-800px:w-[100vw]">
 
-       <!-- card-1 section -->
-      
-      <div class="flex bg-white  sticky max-1xl:relative top-16 z-10 flex-col flex-wrap items-start pt-8 pb-4 min-1200:px-5 max-800px:px-0  max-800px:pt-6  max-600:overflow-x-auto min-800px:overflow-x-auto ">
+    <!-- card-1 section -->
+      <div class="section section-1  flex sticky max-1xl:relative top-24 z-10 flex-col flex-wrap items-start bg-white  ">
 
+       <!-- card heading section -->
+       <div class="head-starting sticky left-0 max-1xl:w-full  max-1xl:h-[130px] max-1xl:bg-customColor" >
 
-            <div class="bg-gradient-card-1 h-12  max-1xl:hidden w-[1400px] max-1xl:w-[100vw]"></div>
-       <!-- card-1 heading section -->
-           <div class=" max-800px:w-[800px] sticky left-0 max-1xl:w-full  max-1xl:h-[130px] max-1xl:bg-customColor" >
-
-            <div class=" max-1xl:pt-8  relative max-1xl:pb-8  max-1xl:pr-5 ">
-              <div class="flex min-1200:hidden  max-800px:w-full max-1xl:w-full">
-                <div class="w-2 bg-blue-600 rounded-t-lg "></div><span class="w-4"></span> <p class=" text-white text-xs">01<span class="opacity-50">/05</span></p>
-              </div>
-              <h1 class="mb-3  max-800px:w-full max-1xl:w-full max-1xl:text-white max-1xl:pl-5 max-1xl:mb-0 font-[600]" style="font-family: lato; font-size: 32px; ">Accept Payments</h1>
-            </div>
-           </div>
-       <!-- card-1 nav section -->
-            <div>
-              <div class="flex  w-full flex-wrap h-14 max-800px:hidden items-center gap-10 relative max-1xl:gap-3">
-                  <p class="text-xl max-1xl:text-[16px]  font-bold">Top Products <span class=" absolute w-24 h-1 left-1 bottom-0 max-800px:bottom-7 bg-green-300  group-block "></span></p>
-                  <p class="text-xl max-1xl:text-[16px] font-bold opacity-50 hover:opacity-100"> On Website/Apps </p>
-                  <p class="text-xl max-1xl:text-[16px] font-bold opacity-50 hover:opacity-100">Plugins</p>
-                  <p class="text-xl max-1xl:text-[16px] font-bold opacity-50 hover:opacity-100">On Social Media</p>
-                  <p class="text-xl max-1xl:text-[16px] font-bold opacity-50 hover:opacity-100">In-Store</p>
-                  <p class="text-xl max-1xl:text-[16px] font-bold opacity-50 hover:opacity-100">International</p>
-                  <p class="text-xl max-1xl:text-[16px] font-bold opacity-50 hover:opacity-100">With Smart Add-ons</p>
-              </div>
-              <hr >
-          </div> 
-       <!-- card-1 section -->
-            <div class="pt-3 flex max-500:flex-wrap max-500:justify-center">
-       <!-- card-1 item-1 section -->
-            <div class="group p-2 max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip">
-                    <img src="./cards/1 (1).png" class="w-full max-800px:w-[190px] relative "  alt="">
-
-                    <div class=" w-[280px] max-800px:h-[165px] max-800px:w-[190px] bg-white  absolute  min-800px:group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
-                    <h1 class="text-[24px] max-800px:text-[16px] font-medium">Payment Gateway</h1>
-                    <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Offer a seamless payment exprience on website or app</p>
-                    <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-                        <button>
-                        <span  class="flex  text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-                        </span>  
-                        </button>
-                        <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-                         Know More
-                        </button>
-                        </div>
-                        <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-5 text-blue-600 ">
-                          sign-up
-                         </button>
-                    </div>
-             </div>
-       <!-- card-1 item-2 section -->
-             <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
-                <img src="./cards/1 (2).png" class="w-full  relative  max-800px:w-[190px]"  alt="">
-
-                <div class=" w-[280px] max-800px:h-[165px] bg-white  absolute  group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:w-[190px] max-800px:px-0">
-                <h1 class="text-[24px] max-800px:text-[16px] font-medium">Payment Button</h1>
-                <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Effortlessly add a Pay Now button without any coding required.</p>
-                <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-                    <button>
-                    <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-                    </span>  
-                    </button>
-                    <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-                     Know More
-                    </button>
-                    </div>
-                    <button class="py-2 min-800px:hidden px-0 font-mullish  relative  text-blue-600 ">
-                      sign-up
-                     </button>
-                </div>
-         </div>
-       <!-- card-1 item-3 section -->
-         <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
-            <img src="./cards/1 (3).png" class="w-full  relative "  alt="">
-
-            <div class=" w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up  pt-1 px-5 max-800px:group-hover:animate-none max-800px:w-[190px] max-800px:px-0">
-            <h1 class="text-[24px] max-800px:text-[16px]  font-medium">Payment Links</h1>
-            <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Create and share links over email,text,and social to accept payments instantly.</p>
-            <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-                <button>
-                <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-                </span>  
-                </button>
-                <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-                 Know More
-                </button>
-                </div>
-                <button class="py-2 min-800px:hidden px-0 font-mullish  relative  text-blue-600 ">
-                  sign-up
-                 </button>
-            </div>
-     </div>
-       <!-- card-1 item-4 section -->
-     <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] w-[280px] max-800px:h-[363px] overflow-y-hidden max-800px:w-[190px]">
-        <img src="./cards/1 (4).png" class="w-full  relative "  alt="">
-
-        <div class=" w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
-        <h1 class="text-[24px] max-800px:text-[16px] font-medium">Razorpay POS</h1>
-        <p class="text-[16px] max-800px:w-[190px] max-800px:text-[13px] pt-3 text-gray-500">Accept seamless in store payments with India's best POS solution</p>
-        <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-            <button>
-            <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-            </span>  
-            </button>
-            <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-             Know More
-            </button>
-            </div>
-            <button class="py-2 min-800px:hidden px-0 font-mullish  relative text-blue-600 ">
-              sign-up
-             </button>
+        <div class=" max-1xl:pt-8  relative max-1xl:pb-8  max-1xl:pr-5 ">
+          <div class="flex min-1200:hidden  max-800px:w-full max-1xl:w-full">
+            <div class="w-2 bg-blue-600 rounded-t-lg "></div><span class="w-4"></span> <p class=" text-white text-xs">01<span class="opacity-50">/05</span></p>
+          </div>
+          <h1 class="mb-3  max-800px:w-full max-1xl:w-full max-1xl:text-white max-1xl:pl-5 max-1xl:mb-0 font-[600]" style="font-family: lato; font-size: 32px; ">Accept Payments</h1>
         </div>
-        </div></div>
-      </div> 
 
-        <!-- card-2 section -->
-        <div class="flex sticky max-1xl:relative top-16 z-10 flex-col flex-wrap items-start pt-8 pb-4 min-1200:px-5 max-800px:px-0  max-800px:pt-6 bg-white  max-600:overflow-x-auto min-800px:overflow-x-auto">
+        <div class=" absolute top-0 right-10 scale-[3]" style="opacity: 1;">
+          <svg style="width:110px;height:100%" viewBox="0 0 298 312" preserveAspectRatio="none" width="100%" height="100%">
+           <use href="#svg834101850_35656"></use></svg>
+          </div>
+
+       </div>
+      <!-- card nav section -->
+       <div class="sticky left-0 nav-starting pl-5">
+                <div class="flex  w-full flex-wrap h-14 max-800px:hidden items-center gap-10 relative max-1xl:gap-3">
+                    <p class="text-[16px]  font-bold">Top Products <span class=" absolute w-24 h-1 left-1 bottom-0 max-800px:bottom-7 bg-green-300  group-block "></span></p>
+                    <p class="text-[16px] font-bold text-[#98acbe]  hover:opacity-100"> On Website/Apps </p>
+                    <p class="text-[16px] font-bold text-[#98acbe] hover:text-black">Plugins</p>
+                    <p class="text-[16px] font-bold text-[#98acbe] hover:text-black">On Social Media</p>
+                    <p class="text-[16px] font-bold text-[#98acbe] hover:text-black">In-Store</p>
+                    <p class="text-[16px] font-bold text-[#98acbe] hover:text-black">International</p>
+                    <p class="text-[16px] font-bold text-[#98acbe] hover:text-black">With Smart Add-ons</p>
+                </div>
+                <hr class="w-full" >
+       </div> 
 
 
-          <div class="bg-gradient-card-2 h-12  max-1xl:hidden w-[1400px] max-1xl:w-[100vw]"></div>
+       <!-- card-1 section -->
+       <div class="pt-3 card-starting relative min-1200:w-[1100px] flex max-500:flex-wrap max-500:justify-center ">
+      
+        <!-- card-1 item-1 section -->
+             <div class="card-shadow group  p-2 max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip">
+                     <img src="./cards/1 (1).png" class="w-full max-800px:w-[190px] relative "  alt="">
+ 
+                     <div class="card-para w-[279px] max-800px:h-[165px] max-800px:w-[190px] bg-white  absolute  min-800px:group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
+                     <h1 class="text-[24px] max-800px:text-[16px] font-medium">Payment Gateway</h1>
+                     <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Offer a seamless payment exprience on website or app</p>
+                     <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+                         <button>
+                         <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+                         </span>  
+                         </button>
+                         <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+                          Know More
+                         </button>
+                         </div>
+                         <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-10 text-blue-600 ">
+                           sign-up
+                          </button>
+                     </div>
+              </div>
+        <!-- card-1 item-2 section -->
+              <div class="group card-shadow p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
+                 <img src="./cards/1 (2).png" class="w-full  relative  max-800px:w-[190px]"  alt="">
+ 
+                 <div class="card-para w-[280px] max-800px:h-[165px] bg-white  absolute  group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:w-[190px] max-800px:px-0">
+                 <h1 class="text-[24px] max-800px:text-[16px] font-medium">Payment Button</h1>
+                 <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Effortlessly add a Pay Now button without any coding required.</p>
+                 <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+                  <button>
+                  <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+                  </span>  
+                  </button>
+                  <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+                   Know More
+                  </button>
+                  </div>
+                     <button class="py-2 min-800px:hidden px-0 font-mullish -bottom-6  relative  text-blue-600 ">
+                       sign-up
+                      </button>
+                 </div>
+          </div>
+        <!-- card-1 item-3 section -->
+          <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
+             <img src="./cards/1 (3).png" class="w-full  relative "  alt="">
+ 
+             <div class="card-para w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up  pt-1 px-5 max-800px:group-hover:animate-none max-800px:w-[190px] max-800px:px-0">
+             <h1 class="text-[24px] max-800px:text-[16px]  font-medium">Payment Links</h1>
+             <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Create and share links over email,text,and social to accept payments instantly.</p>
+             <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+              <button>
+              <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+              </span>  
+              </button>
+              <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+               Know More
+              </button>
+              </div>
+                 <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-6 text-blue-600 ">
+                   sign-up
+                  </button>
+             </div>
+      </div>
+        <!-- card-1 item-4 section -->
+      <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer h-[408px] w-[280px] max-800px:h-[363px] overflow-y-hidden max-800px:w-[190px]">
+         <img src="./cards/1 (4).png" class="w-full  relative "  alt="">
+ 
+         <div class="card-para min-w-[268px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
+         <h1 class="text-[24px] max-800px:text-[16px] font-medium">Razorpay POS</h1>
+         <p class="text-[16px] max-800px:w-[190px] max-800px:text-[13px] pt-3 text-gray-500">Accept seamless in store payments with India's best POS solution</p>
+         <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+          <button>
+          <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+          </span>  
+          </button>
+          <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+           Know More
+          </button>
+          </div>
+             <button class="py-2 min-800px:hidden px-0 font-mullish -bottom-5 relative text-blue-600 ">
+               sign-up
+              </button>
+         </div>
+         </div>
+        </div>
+
+    </div>
+      
+    <!-- card-2 section -->
+      <div class="section section-1 mt-5 mb-20  flex sticky max-1xl:relative top-16 z-10 flex-col flex-wrap items-start  bg-white  ">
+
           <!-- card-2 heading section -->
-         <div class=" max-800px:w-[800px] max-1xl:w-full sticky left-0  max-1xl:h-[130px] max-1xl:bg-customColor" >
+         <div class="max-1xl:w-full sticky -left-0  max-1xl:h-[130px] max-1xl:bg-customColor  " >
 
           <div class=" max-1xl:pt-8  relative max-1xl:pb-8  max-1xl:pr-5 ">
             <div class="flex min-1200:hidden  max-800px:w-full max-1xl:w-full">
@@ -567,104 +574,109 @@
             </div>
             <h1 class="mb-3  max-800px:w-full max-1xl:w-full max-1xl:text-white max-1xl:pl-5 max-1xl:mb-0 font-[600]" style="font-family: lato; font-size: 32px; ">Make Payouts</h1>
           </div>
-         </div>
-         <!-- card-2 item section -->
-          <div class="pt-3 flex max-500:flex-wrap max-500:justify-center">
-         <!-- card-2 item-1 section -->
-          <div class="group p-2 max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip">
+
+          <!-- svg stars -->
+          <div class="framer-vcch0e min-1200:hidden absolute top-0 right-10 scale-[3]" style="opacity: 1;">
+            <svg style="width:110px;height:100%" viewBox="0 0 298 312" preserveAspectRatio="none" width="100%" height="100%">
+             <use href="#svg834101850_35656"></use></svg>
+            </div>
+
+        </div>
+        <!-- card-2 item section -->
+        <div class="card-starting mb-10 flex max-500:flex-wrap max-500:justify-center ">
+        <!-- card-2 item-1 section -->
+        <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip">
                   <img src="./cards/2 (1).png" class="w-full max-800px:w-[190px] relative "  alt="">
 
-                  <div class=" w-[280px] max-800px:h-[165px] max-800px:w-[190px] bg-white  absolute max-800px:relative group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
+                  <div class="card-para min-w-[280px] max-800px:h-[165px] max-800px:min-w-[190px] bg-white  absolute max-800px:relative group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
                   <h1 class="text-[24px] max-800px:text-[16px] font-medium">API & Payouts</h1>
-                  <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Make multiple payouts with a single click from your dashboard</p>
-                  <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-                      <button>
-                      <span  class="flex  text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-                      </span>  
-                      </button>
-                      <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-                       Know More
-                      </button>
-                      </div>
-                      <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-10 text-blue-600 ">
+                  <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Make multiple payouts with a single click your dashboard</p>
+                  <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+                    <button>
+                    <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+                    </span>  
+                    </button>
+                    <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+                     Know More
+                    </button>
+                    </div>
+                      <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-12 text-blue-600 ">
                         sign-up
                        </button>
                   </div>
-           </div>
-         <!-- card-2 item-2 section -->
-           <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
+        </div>
+        <!-- card-2 item-2 section -->
+        <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
               <img src="./cards/2 (2).png" class="w-full  relative  max-800px:w-[190px]"  alt="">
 
-              <div class=" w-[280px] max-800px:h-[165px] bg-white  absolute  group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:w-[190px] max-800px:px-0">
+              <div class="card-para min-w-[280px] max-800px:h-[165px] bg-white  absolute  group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:min-w-[190px] max-800px:px-0">
               <h1 class="text-[24px] max-800px:text-[16px] font-medium">Source to Pay</h1>
-              <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Control and optimize vendor payments with an integrated payables solution</p>
-              <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-                  <button>
-                  <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-                  </span>  
-                  </button>
-                  <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-                   Know More
-                  </button>
-                  </div>
-                  <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-6 text-blue-600 ">
+              <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Control and vendor payments with integrated solution</p>
+              <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+                <button>
+                <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+                </span>  
+                </button>
+                <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+                 Know More
+                </button>
+                </div>
+                  <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-12 text-blue-600 ">
                     sign-up
                    </button>
               </div>
-       </div>
+        </div>
          <!-- card-2 item-3 section -->
-       <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
+        <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
           <img src="./cards/2 (3).png" class="w-full  relative "  alt="">
 
-          <div class=" w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up  pt-1 px-5 max-800px:group-hover:animate-none max-800px:w-[190px] max-800px:px-0">
+          <div class="card-para min-w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up  pt-3 px-5 max-800px:group-hover:animate-none max-800px:min-w-[190px] max-800px:px-0">
           <h1 class="text-[24px] max-800px:text-[16px]  font-medium">Payout Links</h1>
-          <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Share payout links for instant payments, no bank details needed</p>
-          <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-              <button>
-              <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-              </span>  
-              </button>
-              <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-               Know More
-              </button>
-              </div>
-              <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-6 text-blue-600 ">
+          <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Share links for instant payments, no bank details needed</p>
+          <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+            <button>
+            <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+            </span>  
+            </button>
+            <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+             Know More
+            </button>
+            </div>
+              <button class="py-2 min-800px:hidden px-0 font-mullish  relative bottom-[-52px] text-blue-600 ">
                 sign-up
                </button>
           </div>
-   </div>
+        </div>
          <!-- card-2 item-4 section -->
+        <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer h-[408px] w-[280px] max-800px:h-[363px] overflow-y-hidden max-800px:w-[190px]">
+        <img src="./cards/2 (4).png" class="w-full  relative "  alt="">
 
-   <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] w-[280px] max-800px:h-[363px] overflow-y-hidden max-800px:w-[190px]">
-      <img src="./cards/2 (4).png" class="w-full  relative "  alt="">
-
-      <div class=" w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
-      <h1 class="text-[24px] max-800px:text-[16px] font-medium">RTax Payments</h1>
-      <p class="text-[16px] max-800px:w-[190px] max-800px:text-[13px] pt-3 text-gray-500">Online tax payments in a Single click</p>
-      <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-          <button>
-          <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-          </span>  
-          </button>
-          <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-           Know More
-          </button>
-          </div>
-          <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-4 text-blue-600 ">
+        <div class="card-para min-w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0 max-800px:min-w-[190px]">
+        <h1 class="text-[24px] max-800px:text-[16px] font-medium">RTax Payments</h1>
+        <p class="text-[16px] max-800px:w-[190px] max-800px:text-[13px] pt-3 text-gray-500">Online tax payments in a Single click</p>
+        <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+        <button>
+        <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+        </span>  
+        </button>
+        <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+         Know More
+        </button>
+        </div>
+          <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-12 text-blue-600 ">
             sign-up
            </button>
       </div>
-      </div></div>
+        </div>
+    </div>
     </div>
 
 
-      <!-- card-3 section -->
-      <div class="flex sticky max-1xl:relative top-16 z-10 flex-col flex-wrap items-start pt-8 pb-4 min-1200:px-5 max-800px:px-0   bg-white  max-600:overflow-x-auto min-800px:overflow-x-auto">
+    <!-- card-3 section -->
+      <div class=" mt-5 section section-3 flex sticky max-1xl:relative top-16 z-10 flex-col flex-wrap items-start  bg-white  ">
 
-
-        <div class="bg-gradient-card-3 h-12  max-1xl:hidden w-[1400px] max-1xl:w-[100vw]"></div>
         <!-- card-3 heading section -->
-       <div class=" max-800px:w-[800px] max-1xl:w-full sticky left-0 max-1xl:h-[130px] max-1xl:bg-customColor" >
+       <div class=" min-800px:ml-[0px] max-1xl:w-full sticky left-0 max-1xl:h-[130px] max-1xl:bg-customColor" >
 
         <div class=" max-1xl:pt-8  relative max-1xl:pb-8  max-1xl:pr-5 ">
           <div class="flex min-1200:hidden  max-800px:w-full max-1xl:w-full">
@@ -672,95 +684,101 @@
           </div>
           <h1 class="mb-3  max-800px:w-full max-1xl:w-full max-1xl:text-white max-1xl:pl-5 max-1xl:mb-0 font-[600]" style="font-family: lato; font-size: 32px; ">Start Business Banking</h1>
         </div>
+
+       <!-- svg stars -->
+        <div class="framer-vcch0e min-1200:hidden absolute top-0 right-10 scale-[3]" style="opacity: 1;">
+          <svg style="width:110px;height:100%" viewBox="0 0 298 312" preserveAspectRatio="none" width="100%" height="100%">
+          <use href="#svg834101850_35656"></use></svg>
+          </div>
        </div>
+
        <!-- card-3 item section -->
-        
-   <div class="pt-3 flex max-500:flex-wrap max-500:justify-center pb-5">
-   <!-- card-3 item-1 section -->
-   <div class="group p-2 max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip">
+       <div class="card-starting pt-10 flex max-500:flex-wrap max-500:justify-center pb-5">
+       <!-- card-3 item-1 section -->
+       <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip">
                 <img src="./cards/3 (1).png" class="w-full max-800px:w-[190px] relative "  alt="">
 
-                <div class=" w-[280px] max-800px:h-[165px] max-800px:w-[190px] bg-white  absolute max-800px:relative group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
+                <div class="card-para min-w-[280px] max-800px:h-[165px] max-800px:w-[190px] bg-white max-800px:min-w-[190px]  absolute max-800px:relative group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
                 <h1 class="text-[22px] max-800px:text-[16px] font-medium">Current Account</h1>
                 <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500"> Automate banking with India's top current account for startups</p>
-                <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-                    <button>
-                    <span  class="flex  text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-                    </span>  
-                    </button>
-                    <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-                     Know More
-                    </button>
-                    </div>
-                    <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-10 text-blue-600 ">
+                <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+                  <button>
+                  <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+                  </span>  
+                  </button>
+                  <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+                   Know More
+                  </button>
+                  </div>
+                    <button class="py-2 min-800px:hidden px-0 font-mullish  relative bottom-[-48px] text-blue-600 ">
                       sign-up
                      </button>
                 </div>
-   </div>
-   <!-- card-3 item-2 section -->
-   <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
+       </div>
+       <!-- card-3 item-2 section -->
+       <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
             <img src="./cards/3 (2).png" class="w-full  relative  max-800px:w-[190px]"  alt="">
 
-            <div class=" w-[280px] max-800px:h-[165px] bg-white  absolute  group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:w-[190px] max-800px:px-0">
+            <div class="card-para min-w-[280px] max-800px:h-[165px] bg-white  absolute  group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:min-w-[190px] max-800px:px-0">
             <h1 class="text-[22px] max-800px:text-[16px] font-medium">Escrow Account</h1>
-            <p class="text-[16px] max-800px:text-[13px] leading-[1.2] pt-2 text-gray-500">Automate Escrow money transfers with total safety and compliance</p>
-            <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-                <button>
-                <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-                </span>  
-                </button>
-                <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-                 Know More
-                </button>
-                </div>
-                <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-6 text-blue-600 ">
+            <p class="text-[16px] max-800px:text-[13px] pt-2 text-gray-500">Escrow money transfers with safety and compliance</p>
+            <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+              <button>
+              <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+              </span>  
+              </button>
+              <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+               Know More
+              </button>
+              </div>
+                <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-12 text-blue-600 ">
                   sign-up
                  </button>
             </div>
-   </div>
+       </div>
 
-   <!-- card-3 item-3 section -->
-    <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
+       <!-- card-3 item-3 section -->
+       <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
         <img src="./cards/3 (3).png" class="w-full  relative "  alt="">
 
-        <div class=" w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up  pt-3 px-5 max-800px:group-hover:animate-none max-800px:w-[190px] max-800px:px-0">
+        <div class="card-para min-w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up  pt-3 px-5 max-800px:group-hover:animate-none max-800px:min-w-[190px] max-800px:px-0">
         <h1 class="text-[22px] max-800px:text-[16px]  font-medium">Forex Management</h1>
         <p class="text-[16px] max-800px:text-[13px] pt-1 text-gray-500">Get effortless foreign funding management with expert support</p>
-        <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-            <button>
-            <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-            </span>  
-            </button>
-            <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-             Know More
-            </button>
-            </div>
-            <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-6 text-blue-600 ">
+        <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+          <button>
+          <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+          </span>  
+          </button>
+          <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+           Know More
+          </button>
+          </div>
+            <button class="py-2 min-800px:hidden px-0 font-mullish  relative bottom-[-34px] text-blue-600 ">
               sign-up
              </button>
         </div>
-    </div> 
-    <!-- card-3 item-4 section -->
-    <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] w-[280px] max-800px:h-[363px] overflow-y-hidden max-800px:w-[190px]">
-    <img src="./cards/3 (4).png" class="w-full  relative "  alt="">
+       </div> 
+       <!-- card-3 item-4 section -->
+       <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer h-[408px] w-[280px] max-800px:h-[363px] overflow-y-hidden max-800px:w-[190px]">
+       <img src="./cards/3 (4).png" class="w-full  relative "  alt="">
 
-    <div class=" w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
+    <div class="card-para min-w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0 max-800px:min-w-[190px]">
     <h1 class="text-[22px] max-800px:text-[16px] font-medium">Accounting Integration</h1>
     <p class="text-[16px] max-800px:w-[190px] max-800px:text-[13px] pt-1 text-gray-500">Easy integrations with your accounting software</p>
-    <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-        <button>
-        <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-        </span>  
-        </button>
-        <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-         Know More
-        </button>
-        </div>
-        <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-4 text-blue-600 ">
+    <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+      <button>
+      <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+      </span>  
+      </button>
+      <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+       Know More
+      </button>
+      </div>
+        <button class="py-2 min-800px:hidden px-0 font-mullish  relative bottom-[-54px] text-blue-600 ">
           sign-up
          </button>
     </div>
-    </div>
+       </div>
             
 
 
@@ -769,12 +787,10 @@
     </div>
 
     <!-- card-4 section -->
-    <div class="flex sticky max-1xl:relative top-16 z-10 flex-col flex-wrap items-start pt-8 pb-4 min-1200:px-5 max-800px:px-0  max-800px:pt-6 bg-white  max-600:overflow-x-auto min-800px:overflow-x-auto">
+      <div class=" mt-5 section section-4 flex sticky max-1xl:relative top-16 z-10 flex-col flex-wrap items-start bg-white  overflow-x-hidden">
 
-
-      <div class="bg-gradient-card-4 h-12  max-1xl:hidden w-[1400px] max-1xl:w-[100vw]"></div>
       <!-- card-4 heading section -->
-     <div class=" max-800px:w-[800px] max-1xl:w-full sticky left-0 max-1xl:h-[130px] max-1xl:bg-customColor" >
+     <div class="max-1xl:w-full sticky left-0 max-1xl:h-[130px] max-1xl:bg-customColor" >
 
       <div class=" max-1xl:pt-8  relative max-1xl:pb-8  max-1xl:pr-5 ">
         <div class="flex min-1200:hidden  max-800px:w-full max-1xl:w-full">
@@ -782,88 +798,88 @@
         </div>
         <h1 class="mb-3  max-800px:w-full max-1xl:w-full max-1xl:text-white max-1xl:pl-5 max-1xl:mb-0 font-[600]" style="font-family: lato; font-size: 32px; ">Automate Payroll</h1>
       </div>
+
+      <!-- svg stars -->
+       <div class="framer-vcch0e min-1200:hidden absolute top-0 right-10 scale-[3]" style="opacity: 1;">
+         <svg style="width:110px;height:100%" viewBox="0 0 298 312" preserveAspectRatio="none" width="100%" height="100%">
+         <use href="#svg834101850_35656"></use></svg>
+       </div>
      </div>
-     <!-- card-3 item section -->
-      
-      <div class="pt-3 flex max-500:flex-wrap max-500:justify-center ">
-        <!-- card-3 item-1 section -->
-      <div class="group p-2 max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip">
+
+     <!-- card-4 item section -->
+      <div class="card-starting pt-10  flex max-500:flex-wrap max-500:justify-center">
+        <!-- card-4 item-1 section -->
+      <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip">
               <img src="./cards/4 (1).png" class="w-full max-800px:w-[190px] relative "  alt="">
 
-              <div class=" w-[280px] max-800px:h-[165px] max-800px:w-[190px] bg-white  absolute max-800px:relative group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
+              <div class="card-para min-w-[280px] max-800px:h-[165px] max-800px:w-[190px] bg-white max-800px:min-w-[190px] absolute max-800px:relative group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
               <h1 class="text-[24px] max-800px:text-[16px] font-medium">Payroll for Startups</h1>
-              <p class="text-[16px] max-800px:text-[13px] leading-[1.2] pt-3 text-gray-500">Master payroll and compliance with a solution built just for startups</p>
-              <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-                  <button>
-                  <span  class="flex  text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-                  </span>  
-                  </button>
-                  <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-                   Know More
-                  </button>
-                  </div>
+              <p class="text-[16px] max-800px:text-[13px] leading-[1.2] pt-3 text-gray-500">Master payroll and compliance with a solution just for startups</p>
+              <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+                <button>
+                <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+                </span>  
+                </button>
+                <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+                 Know More
+                </button>
+                </div>
                   <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-10 text-blue-600 ">
                     sign-up
                    </button>
               </div>
        </div>
        <!-- card-4 item-2 section -->
-       <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
+       <div class="card-shadow group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
           <img src="./cards/4 (2).png" class="w-full  relative  max-800px:w-[190px]"  alt="">
 
-          <div class=" w-[280px] max-800px:h-[165px] bg-white  absolute  group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:w-[190px] max-800px:px-0">
+          <div class="card-para min-w-[280px] max-800px:h-[165px] bg-white  absolute  group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:min-w-[190px] max-800px:px-0">
           <h1 class="text-[24px] max-800px:text-[16px] font-medium">Payroll for CAs</h1>
           <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Transform payroll and compliance for your clients with RazorpayX</p>
-          <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-              <button>
-              <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-              </span>  
-              </button>
-              <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-               Know More
-              </button>
-              </div>
-              <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-6 text-blue-600 ">
+          <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+            <button>
+            <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+            </span>  
+            </button>
+            <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+             Know More
+            </button>
+            </div>
+              <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-10 text-blue-600 ">
                 sign-up
                </button>
           </div>
-   </div>
+      </div>
        <!-- card-4 item-3 section -->
-   <div class="group p-2 max-800px:p-0 cursor-pointer h-[408px] max-800px:h-[363px] w-[280px] overflow-y-hidden max-800px:w-[190px]">
-      <img src="./cards/4 (3).png" class="w-full  relative "  alt="">
+       <div class="card-shadow group min-800px:rounded-md  max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip    z-50 top-40  bg-white flex-col    items-start ">
+        <img src="./cards/5.png" class="w-full max-800px:w-[190px] relative min-800px:rounded-md z-10 "  alt="">
 
-      <div class=" w-[280px] bg-white  absolute max-800px:h-[165px] group-hover:animate-up  pt-1 px-5 max-800px:group-hover:animate-none max-800px:w-[190px] max-800px:px-0">
+        <div class="card-para min-w-[280px] max-800px:h-[165px]  -translate-y-1 max-800px:min-w-[190px] bg-white z-20 absolute max-800px:relative group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-3">
       <h1 class="text-[24px] max-800px:text-[16px] pt-3 font-medium">Payroll for Enterprises</h1>
       <p class="text-[16px] max-800px:text-[13px]  pt-3 text-gray-500">Get India's Noel payroll software for enterprises with RazorpayX</p>
-      <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-      <button>
-          <span  class="flex text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-          </span>  
-          </button>
-          <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-           Know More
-          </button>
-          </div>
-          <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-6 text-blue-600 ">
+      <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+        <button>
+        <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+        </span>  
+        </button>
+        <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+         Know More
+        </button>
+        </div>
+          <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-8 text-blue-600 ">
             sign-up
            </button>
       </div>
-</div> 
-
-          
-
-
+      </div> 
 
       </div>
-  </div>
+    </div>
 
-  <!-- card-5 section -->
-  <div class="flex sticky max-1xl:relative top-16 z-10 flex-col flex-wrap items-start pt-8 pb-4 min-1200:px-5 max-800px:px-0   max-800px:pt-6 bg-white  overflow-x-clip">
+    <!-- card-5 section -->
+      <div class=" mt-5 section section-5  flex  relative top-5  z-10 flex-col flex-wrap items-start  max-1xl:h-[670px] bg-white  overflow-x-clip">
 
-
-    <div class="bg-white h-12  max-1xl:hidden w-[1400px] max-1xl:w-[100vw]"></div>
     <!-- card-5 heading section -->
-   <div class=" max-800px:w-[800px] max-1xl:w-full  max-1xl:h-[130px] max-1xl:bg-customColor" >
+      <div class=" max-800px:w-[800px] max-1xl:w-full  max-1xl:h-[130px] max-1xl:bg-customColor" >
 
     <div class=" max-1xl:pt-8  relative max-1xl:pb-8  max-1xl:pr-5 ">
       <div class="flex min-1200:hidden  max-800px:w-full max-1xl:w-full">
@@ -871,45 +887,38 @@
       </div>
       <h1 class="mb-3  max-800px:w-full max-1xl:w-full max-1xl:text-white max-1xl:pl-5 max-1xl:mb-0 font-[600]" style="font-family: lato; font-size: 32px; ">Get Credit & Loans</h1>
     </div>
-   </div>
-   <!-- card-5 item section -->
+      <!-- svg stars -->
+      <div class="framer-vcch0e min-1200:hidden absolute top-0 right-10 scale-[3]" style="opacity: 1;">
+        <svg style="width:110px;height:100%" viewBox="0 0 298 312" preserveAspectRatio="none" width="100%" height="100%">
+        <use href="#svg834101850_35656"></use></svg>
+      </div>
     
-    <div class="pt-3 flex max-500:flex-wrap max-500:justify-center">
+    </div>
+   <!-- card-5 item section -->
+    <div class="card-starting-5 card-starting min-800px:mt-12 flex max-500:flex-wrap min-800px:shadow-lg rounded-md">
       <!-- card-5 item-1 section -->
-    <div class="group p-2 max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip    z-50 top-40  bg-white flex-col    items-start ">
-            <img src="./cards/5.png" class="w-full max-800px:w-[190px] relative "  alt="">
+    <div class=" card-shadow group min-800px:rounded-md  max-800px:p-0 cursor-pointer max-800px:h-[363px] h-[408px] w-[280px] max-800px:w-[190px] overflow-y-clip    z-50 top-40  bg-white flex-col    items-start ">
+            <img src="./cards/5.png" class="w-full max-800px:w-[190px] relative min-800px:rounded-md z-10 "  alt="">
 
-            <div class=" w-[280px] max-800px:h-[165px] max-800px:w-[190px] bg-white  absolute max-800px:relative group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-0">
+            <div class="card-para max-w-[280px] max-800px:h-[165px] -translate-y-1 max-800px:w-[190px] bg-white z-20 absolute max-800px:relative group-hover:animate-up max-800px:group-hover:animate-none pt-3 px-5 max-800px:px-3">
             <h1 class="text-[24px] max-800px:text-[16px] font-medium">Instant Settlements</h1>
             <p class="text-[16px] max-800px:text-[13px] pt-3 text-gray-500">Get customer payments in your bank account instantly</p>
-            <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring">
-                <button>
-                <span  class="flex  text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up →
-                </span>  
-                </button>
-                <button class="py-2 px-5 font-mullish text-center text-blue-600 font-semibold">
-                 Know More
-                </button>
-                </div>
-                <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-10 text-blue-600 ">
+            <div class="mt-5 hidden min-800px:group-hover:block min-800px:opacity-0 group-hover:animate-bring ">
+              <button>
+              <span  class="flex card-btn text-sm space-x-1 bg-blue-600 py-2 px-5 rounded-sm h-[40px] text-white font-semibold hover:bg-blue-700"> Sign Up Now →
+              </span>  
+              </button>
+              <button class="py-2 font-mullish text-center text-blue-600 font-semibold">
+               Know More
+              </button>
+              </div>
+                <button class="py-2 min-800px:hidden px-0 font-mullish  relative -bottom-8 text-blue-600 ">
                   sign-up
                  </button>
             </div>
      </div>
-
-
-
-
-        
-
-
-
     </div>
-</div>
-
-
- 
-
+    </div>
     </section>
     
     </section>
@@ -1683,19 +1692,271 @@ CIN: U72200KA2013PTC097389
 
    <div class="overlay"></div>
 
+    <svg width="298" height="312" viewBox="0 0 298 312" fill="none" id="svg834101850_35656">
+    <g opacity="0.3">
+    <mask id="svg834101850_35656_mask0_45_26095" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="298" height="312">
+    <rect width="297.931" height="312" fill="url(#svg834101850_35656_paint0_linear_45_26095)" fill-opacity="0.72"></rect>
+    <rect width="297.931" height="312" fill="#222222"></rect>
+    </mask>
+    <g mask="url(#svg834101850_35656_mask0_45_26095)">
+    <mask id="svg834101850_35656_path-2-inside-1_45_26095" fill="white">
+    <path d="M131.558 278.12L135.484 262.987L113.011 278.206L127.709 220.778L112.781 220.765L91.0683 305.589"></path>
+    </mask>
+    <path d="M135.484 262.987L136.452 263.238L137.118 260.673L134.924 262.159L135.484 262.987ZM113.011 278.206L112.042 277.959L111.388 280.513L113.572 279.034L113.011 278.206ZM127.709 220.778L128.678 221.026L128.997 219.779L127.71 219.778L127.709 220.778ZM112.781 220.765L112.782 219.765L112.005 219.764L111.813 220.517L112.781 220.765ZM132.526 278.371L136.452 263.238L134.516 262.735L130.59 277.869L132.526 278.371ZM134.924 262.159L112.45 277.378L113.572 279.034L136.045 263.815L134.924 262.159ZM113.98 278.454L128.678 221.026L126.74 220.53L112.042 277.959L113.98 278.454ZM127.71 219.778L112.782 219.765L112.781 221.765L127.708 221.778L127.71 219.778ZM111.813 220.517L90.0995 305.341L92.037 305.837L113.75 221.013L111.813 220.517Z" fill="url(#svg834101850_35656_paint1_linear_45_26095)" mask="url(#svg834101850_35656_path-2-inside-1_45_26095)"></path>
+    <mask id="svg834101850_35656_path-4-inside-2_45_26095" fill="white">
+    <path d="M286.988 74.0827L290.914 58.9489L268.441 74.1689L283.139 16.7403L268.211 16.7272L246.498 101.552"></path>
+    </mask>
+    <path d="M290.914 58.9489L291.882 59.2001L292.548 56.6349L290.353 58.1209L290.914 58.9489ZM268.441 74.1689L267.472 73.9209L266.818 76.4755L269.001 74.9969L268.441 74.1689ZM283.139 16.7403L284.107 16.9882L284.427 15.7414L283.14 15.7403L283.139 16.7403ZM268.211 16.7272L268.212 15.7272L267.435 15.7266L267.242 16.4793L268.211 16.7272ZM287.956 74.3339L291.882 59.2001L289.946 58.6978L286.02 73.8316L287.956 74.3339ZM290.353 58.1209L267.88 73.3409L269.001 74.9969L291.475 59.7769L290.353 58.1209ZM269.409 74.4168L284.107 16.9882L282.17 16.4924L267.472 73.9209L269.409 74.4168ZM283.14 15.7403L268.212 15.7272L268.21 17.7272L283.138 17.7403L283.14 15.7403ZM267.242 16.4793L245.529 101.304L247.467 101.8L269.18 16.9752L267.242 16.4793Z" fill="url(#svg834101850_35656_paint2_linear_45_26095)" mask="url(#svg834101850_35656_path-4-inside-2_45_26095)"></path>
+    <mask id="svg834101850_35656_path-6-inside-3_45_26095" fill="white">
+    <path d="M203.792 333.141L207.719 318.008L185.245 333.227L199.943 275.799L185.016 275.786L163.303 360.61"></path>
+    </mask>
+    <path d="M207.719 318.008L208.687 318.259L209.352 315.694L207.158 317.18L207.719 318.008ZM185.245 333.227L184.276 332.98L183.623 335.534L185.806 334.055L185.245 333.227ZM199.943 275.799L200.912 276.047L201.231 274.8L199.944 274.799L199.943 275.799ZM185.016 275.786L185.017 274.786L184.24 274.785L184.047 275.538L185.016 275.786ZM204.76 333.392L208.687 318.259L206.751 317.756L202.824 332.89L204.76 333.392ZM207.158 317.18L184.684 332.399L185.806 334.055L208.279 318.836L207.158 317.18ZM186.214 333.475L200.912 276.047L198.975 275.551L184.276 332.98L186.214 333.475ZM199.944 274.799L185.017 274.786L185.015 276.786L199.942 276.799L199.944 274.799ZM184.047 275.538L162.334 360.362L164.271 360.858L185.985 276.034L184.047 275.538Z" fill="url(#svg834101850_35656_paint3_linear_45_26095)" mask="url(#svg834101850_35656_path-6-inside-3_45_26095)"></path>
+    <mask id="svg834101850_35656_path-8-inside-4_45_26095" fill="white">
+    <path d="M210.371 174.955L214.297 159.821L191.823 175.041L206.521 117.613L191.594 117.6L169.881 202.424"></path>
+    </mask>
+    <path d="M214.297 159.821L215.265 160.073L215.93 157.508L213.736 158.993L214.297 159.821ZM191.823 175.041L190.855 174.793L190.201 177.348L192.384 175.869L191.823 175.041ZM206.521 117.613L207.49 117.861L207.809 116.614L206.522 116.613L206.521 117.613ZM191.594 117.6L191.595 116.6L190.818 116.599L190.625 117.352L191.594 117.6ZM211.339 175.206L215.265 160.073L213.329 159.57L209.403 174.704L211.339 175.206ZM213.736 158.993L191.263 174.213L192.384 175.869L214.858 160.649L213.736 158.993ZM192.792 175.289L207.49 117.861L205.553 117.365L190.855 174.793L192.792 175.289ZM206.522 116.613L191.595 116.6L191.593 118.6L206.521 118.613L206.522 116.613ZM190.625 117.352L168.912 202.176L170.85 202.672L192.563 117.848L190.625 117.352Z" fill="url(#svg834101850_35656_paint4_linear_45_26095)" mask="url(#svg834101850_35656_path-8-inside-4_45_26095)"></path>
+    <mask id="svg834101850_35656_path-10-inside-5_45_26095" fill="white">
+    <path d="M282.605 229.976L286.531 214.842L264.058 230.062L278.756 172.634L263.828 172.621L242.115 257.445"></path>
+    </mask>
+    <path d="M286.531 214.842L287.499 215.094L288.165 212.528L285.971 214.014L286.531 214.842ZM264.058 230.062L263.089 229.814L262.435 232.369L264.618 230.89L264.058 230.062ZM278.756 172.634L279.725 172.882L280.044 171.635L278.757 171.634L278.756 172.634ZM263.828 172.621L263.829 171.621L263.052 171.62L262.86 172.373L263.828 172.621ZM283.573 230.227L287.499 215.094L285.563 214.591L281.637 229.725L283.573 230.227ZM285.971 214.014L263.497 229.234L264.618 230.89L287.092 215.67L285.971 214.014ZM265.026 230.31L279.725 172.882L277.787 172.386L263.089 229.814L265.026 230.31ZM278.757 171.634L263.829 171.621L263.827 173.621L278.755 173.634L278.757 171.634ZM262.86 172.373L241.146 257.197L243.084 257.693L264.797 172.869L262.86 172.373Z" fill="url(#svg834101850_35656_paint5_linear_45_26095)" mask="url(#svg834101850_35656_path-10-inside-5_45_26095)"></path>
+    <mask id="svg834101850_35656_path-12-inside-6_45_26095" fill="white">
+    <path d="M168.769 229.976L172.695 214.842L150.222 230.062L164.92 172.634L149.992 172.621L128.279 257.445"></path>
+    </mask>
+    <path d="M172.695 214.842L173.663 215.094L174.329 212.528L172.135 214.014L172.695 214.842ZM150.222 230.062L149.253 229.814L148.599 232.369L150.783 230.89L150.222 230.062ZM164.92 172.634L165.889 172.882L166.208 171.635L164.921 171.634L164.92 172.634ZM149.992 172.621L149.993 171.621L149.216 171.62L149.024 172.373L149.992 172.621ZM169.737 230.227L173.663 215.094L171.727 214.591L167.801 229.725L169.737 230.227ZM172.135 214.014L149.661 229.234L150.783 230.89L173.256 215.67L172.135 214.014ZM151.191 230.31L165.889 172.882L163.951 172.386L149.253 229.814L151.191 230.31ZM164.921 171.634L149.993 171.621L149.992 173.621L164.919 173.634L164.921 171.634ZM149.024 172.373L127.31 257.197L129.248 257.693L150.961 172.869L149.024 172.373Z" fill="url(#svg834101850_35656_paint6_linear_45_26095)" mask="url(#svg834101850_35656_path-12-inside-6_45_26095)"></path>
+    <mask id="svg834101850_35656_path-14-inside-7_45_26095" fill="white">
+    <path d="M324.199 25.9392L328.125 10.8054L305.651 26.0253L320.35 -31.4033L305.422 -31.4163L283.709 53.4082"></path>
+    </mask>
+    <path d="M328.125 10.8054L329.093 11.0565L329.758 8.49139L327.564 9.97738L328.125 10.8054ZM305.651 26.0253L304.683 25.7774L304.029 28.332L306.212 26.8533L305.651 26.0253ZM320.35 -31.4033L321.318 -31.1553L321.638 -32.4021L320.35 -32.4033L320.35 -31.4033ZM305.422 -31.4163L305.423 -32.4163L304.646 -32.417L304.453 -31.6643L305.422 -31.4163ZM325.167 26.1903L329.093 11.0565L327.157 10.5542L323.231 25.6881L325.167 26.1903ZM327.564 9.97738L305.091 25.1973L306.212 26.8533L328.686 11.6334L327.564 9.97738ZM306.62 26.2733L321.318 -31.1553L319.381 -31.6512L304.683 25.7774L306.62 26.2733ZM320.35 -32.4033L305.423 -32.4163L305.421 -30.4163L320.349 -30.4033L320.35 -32.4033ZM304.453 -31.6643L282.74 53.1602L284.678 53.6562L306.391 -31.1683L304.453 -31.6643Z" fill="url(#svg834101850_35656_paint7_linear_45_26095)" mask="url(#svg834101850_35656_path-14-inside-7_45_26095)"></path>
+    <mask id="svg834101850_35656_path-16-inside-8_45_26095" fill="white">
+    <path d="M241.011 284.998L244.938 269.864L222.464 285.084L237.162 227.655L222.235 227.642L200.521 312.467"></path>
+    </mask>
+    <path d="M244.938 269.864L245.905 270.115L246.571 267.55L244.377 269.036L244.938 269.864ZM222.464 285.084L221.495 284.836L220.841 287.391L223.025 285.912L222.464 285.084ZM237.162 227.655L238.131 227.903L238.45 226.656L237.163 226.655L237.162 227.655ZM222.235 227.642L222.235 226.642L221.459 226.642L221.266 227.394L222.235 227.642ZM241.979 285.249L245.905 270.115L243.97 269.613L240.043 284.747L241.979 285.249ZM244.377 269.036L221.903 284.256L223.025 285.912L245.498 270.692L244.377 269.036ZM223.433 285.332L238.131 227.903L236.193 227.407L221.495 284.836L223.433 285.332ZM237.163 226.655L222.235 226.642L222.234 228.642L237.161 228.655L237.163 226.655ZM221.266 227.394L199.553 312.219L201.49 312.715L223.203 227.89L221.266 227.394Z" fill="url(#svg834101850_35656_paint8_linear_45_26095)" mask="url(#svg834101850_35656_path-16-inside-8_45_26095)"></path>
+    <mask id="svg834101850_35656_path-18-inside-9_45_26095" fill="white">
+    <path d="M313.261 340.019L317.188 324.885L294.714 340.105L309.412 282.677L294.485 282.664L272.771 367.488"></path>
+    </mask>
+    <path d="M317.188 324.885L318.155 325.137L318.821 322.571L316.627 324.057L317.188 324.885ZM294.714 340.105L293.745 339.857L293.091 342.412L295.275 340.933L294.714 340.105ZM309.412 282.677L310.381 282.925L310.7 281.678L309.413 281.677L309.412 282.677ZM294.485 282.664L294.485 281.664L293.709 281.663L293.516 282.416L294.485 282.664ZM314.229 340.27L318.155 325.137L316.22 324.634L312.293 339.768L314.229 340.27ZM316.627 324.057L294.153 339.277L295.275 340.933L317.748 325.713L316.627 324.057ZM295.683 340.353L310.381 282.925L308.443 282.429L293.745 339.857L295.683 340.353ZM309.413 281.677L294.485 281.664L294.484 283.664L309.411 283.677L309.413 281.677ZM293.516 282.416L271.803 367.24L273.74 367.736L295.453 282.912L293.516 282.416Z" fill="url(#svg834101850_35656_paint9_linear_45_26095)" mask="url(#svg834101850_35656_path-18-inside-9_45_26095)"></path>
+    <mask id="svg834101850_35656_path-20-inside-10_45_26095" fill="white">
+    <path d="M92.1518 330.849L96.0781 315.715L73.6046 330.935L88.3027 273.506L73.3752 273.493L51.662 358.318"></path>
+    </mask>
+    <path d="M96.0781 315.715L97.0461 315.966L97.7116 313.401L95.5174 314.887L96.0781 315.715ZM73.6046 330.935L72.6358 330.687L71.982 333.242L74.1653 331.763L73.6046 330.935ZM88.3027 273.506L89.2715 273.754L89.5906 272.508L88.3036 272.506L88.3027 273.506ZM73.3752 273.493L73.3761 272.493L72.5991 272.493L72.4065 273.245L73.3752 273.493ZM93.1198 331.1L97.0461 315.966L95.1102 315.464L91.1838 330.598L93.1198 331.1ZM95.5174 314.887L73.0438 330.107L74.1653 331.763L96.6389 316.543L95.5174 314.887ZM74.5733 331.183L89.2715 273.754L87.334 273.258L72.6358 330.687L74.5733 331.183ZM88.3036 272.506L73.3761 272.493L73.3743 274.493L88.3019 274.506L88.3036 272.506ZM72.4065 273.245L50.6932 358.07L52.6308 358.566L74.344 273.741L72.4065 273.245Z" fill="url(#svg834101850_35656_paint10_linear_45_26095)" mask="url(#svg834101850_35656_path-20-inside-10_45_26095)"></path>
+    <mask id="svg834101850_35656_path-22-inside-11_45_26095" fill="white">
+    <path d="M247.581 126.811L251.508 111.677L229.034 126.897L243.732 69.4688L228.805 69.4558L207.092 154.28"></path>
+    </mask>
+    <path d="M251.508 111.677L252.476 111.929L253.141 109.363L250.947 110.849L251.508 111.677ZM229.034 126.897L228.065 126.649L227.412 129.204L229.595 127.725L229.034 126.897ZM243.732 69.4688L244.701 69.7168L245.02 68.4699L243.733 68.4688L243.732 69.4688ZM228.805 69.4558L228.806 68.4558L228.029 68.4551L227.836 69.2078L228.805 69.4558ZM248.549 127.062L252.476 111.929L250.54 111.426L246.614 126.56L248.549 127.062ZM250.947 110.849L228.474 126.069L229.595 127.725L252.069 112.505L250.947 110.849ZM230.003 127.145L244.701 69.7168L242.764 69.2209L228.065 126.649L230.003 127.145ZM243.733 68.4688L228.806 68.4558L228.804 70.4558L243.732 70.4688L243.733 68.4688ZM227.836 69.2078L206.123 154.032L208.06 154.528L229.774 69.7037L227.836 69.2078Z" fill="url(#svg834101850_35656_paint11_linear_45_26095)" mask="url(#svg834101850_35656_path-22-inside-11_45_26095)"></path>
+    <mask id="svg834101850_35656_path-24-inside-12_45_26095" fill="white">
+    <path d="M319.824 181.833L323.75 166.699L301.276 181.919L315.975 124.49L301.047 124.477L279.334 209.302"></path>
+    </mask>
+    <path d="M323.75 166.699L324.718 166.95L325.383 164.385L323.189 165.871L323.75 166.699ZM301.276 181.919L300.308 181.671L299.654 184.226L301.837 182.747L301.276 181.919ZM315.975 124.49L316.943 124.738L317.263 123.491L315.975 123.49L315.975 124.49ZM301.047 124.477L301.048 123.477L300.271 123.477L300.078 124.229L301.047 124.477ZM320.792 182.084L324.718 166.95L322.782 166.448L318.856 181.582L320.792 182.084ZM323.189 165.871L300.716 181.091L301.837 182.747L324.311 167.527L323.189 165.871ZM302.245 182.167L316.943 124.738L315.006 124.242L300.308 181.671L302.245 182.167ZM315.975 123.49L301.048 123.477L301.046 125.477L315.974 125.49L315.975 123.49ZM300.078 124.229L278.365 209.054L280.303 209.55L302.016 124.725L300.078 124.229Z" fill="url(#svg834101850_35656_paint12_linear_45_26095)" mask="url(#svg834101850_35656_path-24-inside-12_45_26095)"></path>
+    <mask id="svg834101850_35656_path-26-inside-13_45_26095" fill="white">
+    <path d="M112.504 151.947L108.578 167.08L131.052 151.86L116.354 209.289L131.281 209.302L152.994 124.478"></path>
+    </mask>
+    <path d="M108.578 167.08L107.61 166.829L106.945 169.394L109.139 167.908L108.578 167.08ZM131.052 151.86L132.02 152.108L132.674 149.554L130.491 151.032L131.052 151.86ZM116.354 209.289L115.385 209.041L115.066 210.288L116.353 210.289L116.354 209.289ZM131.281 209.302L131.28 210.302L132.057 210.303L132.25 209.55L131.281 209.302ZM111.536 151.695L107.61 166.829L109.546 167.332L113.472 152.198L111.536 151.695ZM109.139 167.908L131.612 152.688L130.491 151.032L108.017 166.252L109.139 167.908ZM130.083 151.612L115.385 209.041L117.322 209.537L132.02 152.108L130.083 151.612ZM116.353 210.289L131.28 210.302L131.282 208.302L116.354 208.289L116.353 210.289ZM132.25 209.55L153.963 124.726L152.025 124.23L130.312 209.054L132.25 209.55Z" fill="url(#svg834101850_35656_paint13_linear_45_26095)" mask="url(#svg834101850_35656_path-26-inside-13_45_26095)"></path>
+    <mask id="svg834101850_35656_path-28-inside-14_45_26095" fill="white">
+    <path d="M267.934 -52.091L264.008 -36.9572L286.481 -52.1772L271.783 5.2514L286.711 5.26445L308.424 -79.5601"></path>
+    </mask>
+    <path d="M264.008 -36.9572L263.04 -37.2084L262.374 -34.6432L264.569 -36.1292L264.008 -36.9572ZM286.481 -52.1772L287.45 -51.9292L288.104 -54.4838L285.921 -53.0052L286.481 -52.1772ZM271.783 5.2514L270.814 5.00346L270.495 6.25028L271.782 6.2514L271.783 5.2514ZM286.711 5.26445L286.71 6.26445L287.487 6.26513L287.679 5.51243L286.711 5.26445ZM266.966 -52.3422L263.04 -37.2084L264.976 -36.7061L268.902 -51.8399L266.966 -52.3422ZM264.569 -36.1292L287.042 -51.3492L285.921 -53.0052L263.447 -37.7852L264.569 -36.1292ZM285.513 -52.4251L270.814 5.00346L272.752 5.49935L287.45 -51.9292L285.513 -52.4251ZM271.782 6.2514L286.71 6.26445L286.712 4.26445L271.784 4.2514L271.782 6.2514ZM287.679 5.51243L309.393 -79.3121L307.455 -79.808L285.742 5.01647L287.679 5.51243Z" fill="url(#svg834101850_35656_paint14_linear_45_26095)" mask="url(#svg834101850_35656_path-28-inside-14_45_26095)"></path>
+    <mask id="svg834101850_35656_path-30-inside-15_45_26095" fill="white">
+    <path d="M184.747 206.968L180.82 222.101L203.294 206.881L188.596 264.31L203.523 264.323L225.236 179.499"></path>
+    </mask>
+    <path d="M180.82 222.101L179.852 221.85L179.187 224.415L181.381 222.929L180.82 222.101ZM203.294 206.881L204.263 207.129L204.916 204.575L202.733 206.053L203.294 206.881ZM188.596 264.31L187.627 264.062L187.308 265.309L188.595 265.31L188.596 264.31ZM203.523 264.323L203.522 265.323L204.299 265.324L204.492 264.571L203.523 264.323ZM183.779 206.716L179.852 221.85L181.788 222.352L185.715 207.219L183.779 206.716ZM181.381 222.929L203.855 207.709L202.733 206.053L180.26 221.273L181.381 222.929ZM202.325 206.633L187.627 264.062L189.564 264.558L204.263 207.129L202.325 206.633ZM188.595 265.31L203.522 265.323L203.524 263.323L188.597 263.31L188.595 265.31ZM204.492 264.571L226.205 179.747L224.268 179.251L202.554 264.075L204.492 264.571Z" fill="url(#svg834101850_35656_paint15_linear_45_26095)" mask="url(#svg834101850_35656_path-30-inside-15_45_26095)"></path>
+    <mask id="svg834101850_35656_path-32-inside-16_45_26095" fill="white">
+    <path d="M256.989 261.989L253.062 277.123L275.536 261.903L260.838 319.331L275.765 319.345L297.479 234.52"></path>
+    </mask>
+    <path d="M253.062 277.123L252.095 276.872L251.429 279.437L253.623 277.951L253.062 277.123ZM275.536 261.903L276.505 262.151L277.159 259.596L274.975 261.075L275.536 261.903ZM260.838 319.331L259.869 319.084L259.55 320.33L260.837 320.331L260.838 319.331ZM275.765 319.345L275.765 320.345L276.541 320.345L276.734 319.593L275.765 319.345ZM256.021 261.738L252.095 276.872L254.03 277.374L257.957 262.24L256.021 261.738ZM253.623 277.951L276.097 262.731L274.975 261.075L252.502 276.295L253.623 277.951ZM274.567 261.655L259.869 319.084L261.807 319.579L276.505 262.151L274.567 261.655ZM260.837 320.331L275.765 320.345L275.766 318.345L260.839 318.331L260.837 320.331ZM276.734 319.593L298.447 234.768L296.51 234.272L274.797 319.097L276.734 319.593Z" fill="url(#svg834101850_35656_paint16_linear_45_26095)" mask="url(#svg834101850_35656_path-32-inside-16_45_26095)"></path>
+    <mask id="svg834101850_35656_path-34-inside-17_45_26095" fill="white">
+    <path d="M35.8795 252.819L31.9531 267.952L54.4267 252.732L39.7285 310.161L54.656 310.174L76.3692 225.35"></path>
+    </mask>
+    <path d="M31.9531 267.952L30.9852 267.701L30.3197 270.266L32.5139 268.78L31.9531 267.952ZM54.4267 252.732L55.3955 252.98L56.0493 250.426L53.8659 251.904L54.4267 252.732ZM39.7285 310.161L38.7597 309.913L38.4406 311.16L39.7276 311.161L39.7285 310.161ZM54.656 310.174L54.6552 311.174L55.4321 311.175L55.6248 310.422L54.656 310.174ZM34.9115 252.568L30.9852 267.701L32.9211 268.204L36.8474 253.07L34.9115 252.568ZM32.5139 268.78L54.9874 253.56L53.8659 251.904L31.3924 267.124L32.5139 268.78ZM53.4579 252.485L38.7597 309.913L40.6973 310.409L55.3955 252.98L53.4579 252.485ZM39.7276 311.161L54.6552 311.174L54.6569 309.174L39.7294 309.161L39.7276 311.161ZM55.6248 310.422L77.338 225.598L75.4005 225.102L53.6873 309.926L55.6248 310.422Z" fill="url(#svg834101850_35656_paint17_linear_45_26095)" mask="url(#svg834101850_35656_path-34-inside-17_45_26095)"></path>
+    <mask id="svg834101850_35656_path-36-inside-18_45_26095" fill="white">
+    <path d="M191.317 48.7815L187.391 63.9153L209.864 48.6954L195.166 106.124L210.094 106.137L231.807 21.3125"></path>
+    </mask>
+    <path d="M187.391 63.9153L186.423 63.6642L185.757 66.2293L187.951 64.7433L187.391 63.9153ZM209.864 48.6954L210.833 48.9433L211.487 46.3887L209.303 47.8674L209.864 48.6954ZM195.166 106.124L194.197 105.876L193.878 107.123L195.165 107.124L195.166 106.124ZM210.094 106.137L210.093 107.137L210.87 107.138L211.062 106.385L210.094 106.137ZM190.349 48.5304L186.423 63.6642L188.359 64.1665L192.285 49.0326L190.349 48.5304ZM187.951 64.7433L210.425 49.5234L209.303 47.8674L186.83 63.0873L187.951 64.7433ZM208.895 48.4474L194.197 105.876L196.135 106.372L210.833 48.9433L208.895 48.4474ZM195.165 107.124L210.093 107.137L210.094 105.137L195.167 105.124L195.165 107.124ZM211.062 106.385L232.776 21.5605L230.838 21.0645L209.125 105.889L211.062 106.385Z" fill="url(#svg834101850_35656_paint18_linear_45_26095)" mask="url(#svg834101850_35656_path-36-inside-18_45_26095)"></path>
+    <mask id="svg834101850_35656_path-38-inside-19_45_26095" fill="white">
+    <path d="M108.129 307.84L104.203 322.974L126.677 307.754L111.979 365.183L126.906 365.196L148.619 280.371"></path>
+    </mask>
+    <path d="M104.203 322.974L103.235 322.723L102.57 325.288L104.764 323.802L104.203 322.974ZM126.677 307.754L127.645 308.002L128.299 305.447L126.116 306.926L126.677 307.754ZM111.979 365.183L111.01 364.935L110.691 366.181L111.978 366.183L111.979 365.183ZM126.906 365.196L126.905 366.196L127.682 366.196L127.875 365.444L126.906 365.196ZM107.161 307.589L103.235 322.723L105.171 323.225L109.097 308.091L107.161 307.589ZM104.764 323.802L127.237 308.582L126.116 306.926L103.642 322.146L104.764 323.802ZM125.708 307.506L111.01 364.935L112.947 365.431L127.645 308.002L125.708 307.506ZM111.978 366.183L126.905 366.196L126.907 364.196L111.979 364.183L111.978 366.183ZM127.875 365.444L149.588 280.619L147.65 280.123L125.937 364.948L127.875 365.444Z" fill="url(#svg834101850_35656_paint19_linear_45_26095)" mask="url(#svg834101850_35656_path-38-inside-19_45_26095)"></path>
+    <mask id="svg834101850_35656_path-40-inside-20_45_26095" fill="white">
+    <path d="M263.559 103.803L259.633 118.937L282.106 103.717L267.408 161.145L282.336 161.158L304.049 76.334"></path>
+    </mask>
+    <path d="M259.633 118.937L258.665 118.686L257.999 121.251L260.194 119.765L259.633 118.937ZM282.106 103.717L283.075 103.965L283.729 101.41L281.546 102.889L282.106 103.717ZM267.408 161.145L266.439 160.897L266.12 162.144L267.407 162.145L267.408 161.145ZM282.336 161.158L282.335 162.158L283.112 162.159L283.304 161.406L282.336 161.158ZM262.591 103.552L258.665 118.686L260.601 119.188L264.527 104.054L262.591 103.552ZM260.194 119.765L282.667 104.545L281.546 102.889L259.072 118.109L260.194 119.765ZM281.138 103.469L266.439 160.897L268.377 161.393L283.075 103.965L281.138 103.469ZM267.407 162.145L282.335 162.158L282.337 160.158L267.409 160.145L267.407 162.145ZM283.304 161.406L305.018 76.582L303.08 76.086L281.367 160.911L283.304 161.406Z" fill="url(#svg834101850_35656_paint20_linear_45_26095)" mask="url(#svg834101850_35656_path-40-inside-20_45_26095)"></path>
+    <mask id="svg834101850_35656_path-42-inside-21_45_26095" fill="white">
+    <path d="M294.208 213.845L290.281 228.979L312.755 213.759L298.057 271.187L312.984 271.2L334.697 186.376"></path>
+    </mask>
+    <path d="M290.281 228.979L289.313 228.728L288.648 231.293L290.842 229.807L290.281 228.979ZM312.755 213.759L313.724 214.007L314.377 211.452L312.194 212.931L312.755 213.759ZM298.057 271.187L297.088 270.939L296.769 272.186L298.056 272.187L298.057 271.187ZM312.984 271.2L312.983 272.2L313.76 272.201L313.953 271.448L312.984 271.2ZM293.24 213.594L289.313 228.728L291.249 229.23L295.176 214.096L293.24 213.594ZM290.842 229.807L313.316 214.587L312.194 212.931L289.721 228.151L290.842 229.807ZM311.786 213.511L297.088 270.939L299.025 271.435L313.724 214.007L311.786 213.511ZM298.056 272.187L312.983 272.2L312.985 270.2L298.058 270.187L298.056 272.187ZM313.953 271.448L335.666 186.624L333.729 186.128L312.015 270.953L313.953 271.448Z" fill="url(#svg834101850_35656_paint21_linear_45_26095)" mask="url(#svg834101850_35656_path-42-inside-21_45_26095)"></path>
+    <mask id="svg834101850_35656_path-44-inside-22_45_26095" fill="white">
+    <path d="M73.0982 204.675L69.1719 219.809L91.6454 204.589L76.9473 262.018L91.8748 262.031L113.588 177.206"></path>
+    </mask>
+    <path d="M69.1719 219.809L68.2039 219.558L67.5384 222.123L69.7326 220.637L69.1719 219.809ZM91.6454 204.589L92.6142 204.837L93.268 202.282L91.0847 203.761L91.6454 204.589ZM76.9473 262.018L75.9785 261.77L75.6594 263.016L76.9464 263.018L76.9473 262.018ZM91.8748 262.031L91.8739 263.031L92.6509 263.031L92.8435 262.279L91.8748 262.031ZM72.1302 204.424L68.2039 219.558L70.1398 220.06L74.0662 204.926L72.1302 204.424ZM69.7326 220.637L92.2062 205.417L91.0847 203.761L68.6111 218.981L69.7326 220.637ZM90.6767 204.341L75.9785 261.77L77.916 262.265L92.6142 204.837L90.6767 204.341ZM76.9464 263.018L91.8739 263.031L91.8757 261.031L76.9481 261.018L76.9464 263.018ZM92.8435 262.279L114.557 177.454L112.619 176.958L90.906 261.783L92.8435 262.279Z" fill="url(#svg834101850_35656_paint22_linear_45_26095)" mask="url(#svg834101850_35656_path-44-inside-22_45_26095)"></path>
+    <mask id="svg834101850_35656_path-46-inside-23_45_26095" fill="white">
+    <path d="M228.536 0.637968L224.609 15.7718L247.083 0.551819L232.385 57.9804L247.312 57.9935L269.025 -26.8311"></path>
+    </mask>
+    <path d="M224.609 15.7718L223.641 15.5207L222.976 18.0858L225.17 16.5998L224.609 15.7718ZM247.083 0.551819L248.052 0.799766L248.706 -1.75481L246.522 -0.276169L247.083 0.551819ZM232.385 57.9804L231.416 57.7325L231.097 58.9793L232.384 58.9804L232.385 57.9804ZM247.312 57.9935L247.311 58.9935L248.088 58.9941L248.281 58.2414L247.312 57.9935ZM227.568 0.386842L223.641 15.5207L225.577 16.0229L229.504 0.889095L227.568 0.386842ZM225.17 16.5998L247.644 1.37981L246.522 -0.276169L224.049 14.9438L225.17 16.5998ZM246.114 0.303873L231.416 57.7325L233.354 58.2284L248.052 0.799766L246.114 0.303873ZM232.384 58.9804L247.311 58.9935L247.313 56.9935L232.386 56.9804L232.384 58.9804ZM248.281 58.2414L269.994 -26.5831L268.057 -27.079L246.344 57.7455L248.281 58.2414Z" fill="url(#svg834101850_35656_paint23_linear_45_26095)" mask="url(#svg834101850_35656_path-46-inside-23_45_26095)"></path>
+    <mask id="svg834101850_35656_path-48-inside-24_45_26095" fill="white">
+    <path d="M145.34 259.697L141.414 274.83L163.888 259.61L149.189 317.039L164.117 317.052L185.83 232.228"></path>
+    </mask>
+    <path d="M141.414 274.83L140.446 274.579L139.781 277.144L141.975 275.658L141.414 274.83ZM163.888 259.61L164.856 259.858L165.51 257.304L163.327 258.782L163.888 259.61ZM149.189 317.039L148.221 316.791L147.902 318.038L149.189 318.039L149.189 317.039ZM164.117 317.052L164.116 318.052L164.893 318.053L165.086 317.3L164.117 317.052ZM144.372 259.445L140.446 274.579L142.382 275.082L146.308 259.948L144.372 259.445ZM141.975 275.658L164.448 260.438L163.327 258.782L140.853 274.002L141.975 275.658ZM162.919 259.362L148.221 316.791L150.158 317.287L164.856 259.858L162.919 259.362ZM149.189 318.039L164.116 318.052L164.118 316.052L149.19 316.039L149.189 318.039ZM165.086 317.3L186.799 232.476L184.861 231.98L163.148 316.804L165.086 317.3Z" fill="url(#svg834101850_35656_paint24_linear_45_26095)" mask="url(#svg834101850_35656_path-48-inside-24_45_26095)"></path>
+    <mask id="svg834101850_35656_path-50-inside-25_45_26095" fill="white">
+    <path d="M300.77 55.659L296.844 70.7928L319.317 55.5728L304.619 113.001L319.547 113.014L341.26 28.1899"></path>
+    </mask>
+    <path d="M296.844 70.7928L295.876 70.5416L295.21 73.1068L297.404 71.6208L296.844 70.7928ZM319.317 55.5728L320.286 55.8208L320.94 53.2662L318.757 54.7448L319.317 55.5728ZM304.619 113.001L303.65 112.753L303.331 114L304.618 114.001L304.619 113.001ZM319.547 113.014L319.546 114.014L320.323 114.015L320.515 113.262L319.547 113.014ZM299.802 55.4078L295.876 70.5416L297.812 71.0439L301.738 55.9101L299.802 55.4078ZM297.404 71.6208L319.878 56.4008L318.757 54.7448L296.283 69.9648L297.404 71.6208ZM318.349 55.3249L303.65 112.753L305.588 113.249L320.286 55.8208L318.349 55.3249ZM304.618 114.001L319.546 114.014L319.548 112.014L304.62 112.001L304.618 114.001ZM320.515 113.262L342.229 28.4379L340.291 27.942L318.578 112.766L320.515 113.262Z" fill="url(#svg834101850_35656_paint25_linear_45_26095)" mask="url(#svg834101850_35656_path-50-inside-25_45_26095)"></path>
+    <mask id="svg834101850_35656_path-52-inside-26_45_26095" fill="white">
+    <path d="M217.583 314.718L213.656 329.852L236.13 314.632L221.432 372.06L236.359 372.074L258.072 287.249"></path>
+    </mask>
+    <path d="M213.656 329.852L212.688 329.601L212.023 332.166L214.217 330.68L213.656 329.852ZM236.13 314.632L237.099 314.88L237.752 312.325L235.569 313.804L236.13 314.632ZM221.432 372.06L220.463 371.813L220.144 373.059L221.431 373.06L221.432 372.06ZM236.359 372.074L236.358 373.074L237.135 373.074L237.328 372.322L236.359 372.074ZM216.615 314.467L212.688 329.601L214.624 330.103L218.551 314.969L216.615 314.467ZM214.217 330.68L236.691 315.46L235.569 313.804L213.096 329.024L214.217 330.68ZM235.161 314.384L220.463 371.813L222.4 372.308L237.099 314.88L235.161 314.384ZM221.431 373.06L236.358 373.074L236.36 371.074L221.433 371.06L221.431 373.06ZM237.328 372.322L259.041 287.497L257.104 287.001L235.39 371.826L237.328 372.322Z" fill="url(#svg834101850_35656_paint26_linear_45_26095)" mask="url(#svg834101850_35656_path-52-inside-26_45_26095)"></path>
+    <mask id="svg834101850_35656_path-54-inside-27_45_26095" fill="white">
+    <path d="M-3.5268 305.547L-7.45312 320.681L15.0204 305.461L0.322254 362.89L15.2498 362.903L36.963 278.078"></path>
+    </mask>
+    <path d="M-7.45312 320.681L-8.42108 320.43L-9.08657 322.995L-6.89238 321.509L-7.45312 320.681ZM15.0204 305.461L15.9892 305.709L16.643 303.154L14.4597 304.633L15.0204 305.461ZM0.322254 362.89L-0.64652 362.642L-0.965629 363.888L0.32138 363.89L0.322254 362.89ZM15.2498 362.903L15.2489 363.903L16.0259 363.903L16.2185 363.151L15.2498 362.903ZM-4.49475 305.296L-8.42108 320.43L-6.48517 320.932L-2.55884 305.798L-4.49475 305.296ZM-6.89238 321.509L15.5812 306.289L14.4597 304.633L-8.01387 319.853L-6.89238 321.509ZM14.0517 305.213L-0.64652 362.642L1.29103 363.138L15.9892 305.709L14.0517 305.213ZM0.32138 363.89L15.2489 363.903L15.2507 361.903L0.323128 361.89L0.32138 363.89ZM16.2185 363.151L37.9318 278.326L35.9942 277.83L14.281 362.655L16.2185 363.151Z" fill="url(#svg834101850_35656_paint27_linear_45_26095)" mask="url(#svg834101850_35656_path-54-inside-27_45_26095)"></path>
+    <mask id="svg834101850_35656_path-56-inside-28_45_26095" fill="white">
+    <path d="M151.911 101.511L147.984 116.644L170.458 101.424L155.76 158.853L170.687 158.866L192.4 74.0415"></path>
+    </mask>
+    <path d="M147.984 116.644L147.016 116.393L146.351 118.958L148.545 117.472L147.984 116.644ZM170.458 101.424L171.427 101.672L172.081 99.1178L169.897 100.596L170.458 101.424ZM155.76 158.853L154.791 158.605L154.472 159.852L155.759 159.853L155.76 158.853ZM170.687 158.866L170.686 159.866L171.463 159.867L171.656 159.114L170.687 158.866ZM150.943 101.259L147.016 116.393L148.952 116.895L152.879 101.762L150.943 101.259ZM148.545 117.472L171.019 102.252L169.897 100.596L147.424 115.816L148.545 117.472ZM169.489 101.176L154.791 158.605L156.729 159.101L171.427 101.672L169.489 101.176ZM155.759 159.853L170.686 159.866L170.688 157.866L155.761 157.853L155.759 159.853ZM171.656 159.114L193.369 74.2895L191.432 73.7935L169.719 158.618L171.656 159.114Z" fill="url(#svg834101850_35656_paint28_linear_45_26095)" mask="url(#svg834101850_35656_path-56-inside-28_45_26095)"></path>
+    <mask id="svg834101850_35656_path-58-inside-29_45_26095" fill="white">
+    <path d="M224.153 156.532L220.227 171.665L242.7 156.445L228.002 213.874L242.929 213.887L264.643 129.062"></path>
+    </mask>
+    <path d="M220.227 171.665L219.259 171.414L218.593 173.979L220.787 172.493L220.227 171.665ZM242.7 156.445L243.669 156.693L244.323 154.139L242.139 155.617L242.7 156.445ZM228.002 213.874L227.033 213.626L226.714 214.873L228.001 214.874L228.002 213.874ZM242.929 213.887L242.929 214.887L243.706 214.888L243.898 214.135L242.929 213.887ZM223.185 156.28L219.259 171.414L221.195 171.916L225.121 156.783L223.185 156.28ZM220.787 172.493L243.261 157.273L242.139 155.617L219.666 170.837L220.787 172.493ZM241.731 156.197L227.033 213.626L228.971 214.122L243.669 156.693L241.731 156.197ZM228.001 214.874L242.929 214.887L242.93 212.887L228.003 212.874L228.001 214.874ZM243.898 214.135L265.611 129.31L263.674 128.815L241.961 213.639L243.898 214.135Z" fill="url(#svg834101850_35656_paint29_linear_45_26095)" mask="url(#svg834101850_35656_path-58-inside-29_45_26095)"></path>
+    </g>
+    </g>
+    <defs>
+    <linearGradient id="svg834101850_35656_paint0_linear_45_26095" x1="0" y1="0" x2="210.008" y2="59.3126" gradientUnits="userSpaceOnUse">
+    <stop></stop>
+    <stop offset="1" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint1_linear_45_26095" x1="113.276" y1="305.589" x2="113.276" y2="220.765" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint2_linear_45_26095" x1="268.706" y1="101.552" x2="268.706" y2="16.7272" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint3_linear_45_26095" x1="185.511" y1="360.61" x2="185.511" y2="275.786" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint4_linear_45_26095" x1="192.089" y1="202.424" x2="192.089" y2="117.6" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint5_linear_45_26095" x1="264.323" y1="257.445" x2="264.323" y2="172.621" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint6_linear_45_26095" x1="150.487" y1="257.445" x2="150.487" y2="172.621" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint7_linear_45_26095" x1="305.917" y1="53.4082" x2="305.917" y2="-31.4163" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint8_linear_45_26095" x1="222.729" y1="312.467" x2="222.729" y2="227.642" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint9_linear_45_26095" x1="294.979" y1="367.488" x2="294.979" y2="282.664" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint10_linear_45_26095" x1="73.8701" y1="358.318" x2="73.8701" y2="273.493" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint11_linear_45_26095" x1="229.3" y1="154.28" x2="229.3" y2="69.4558" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint12_linear_45_26095" x1="301.542" y1="209.302" x2="301.542" y2="124.477" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint13_linear_45_26095" x1="130.786" y1="124.478" x2="130.786" y2="209.302" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint14_linear_45_26095" x1="286.216" y1="-79.5601" x2="286.216" y2="5.26445" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint15_linear_45_26095" x1="203.028" y1="179.499" x2="203.028" y2="264.323" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint16_linear_45_26095" x1="275.271" y1="234.52" x2="275.271" y2="319.345" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint17_linear_45_26095" x1="54.1612" y1="225.35" x2="54.1612" y2="310.174" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint18_linear_45_26095" x1="209.599" y1="21.3125" x2="209.599" y2="106.137" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint19_linear_45_26095" x1="126.411" y1="280.371" x2="126.411" y2="365.196" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint20_linear_45_26095" x1="281.841" y1="76.334" x2="281.841" y2="161.158" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint21_linear_45_26095" x1="312.489" y1="186.376" x2="312.489" y2="271.2" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint22_linear_45_26095" x1="91.3799" y1="177.206" x2="91.3799" y2="262.031" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint23_linear_45_26095" x1="246.817" y1="-26.8311" x2="246.817" y2="57.9935" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint24_linear_45_26095" x1="163.622" y1="232.228" x2="163.622" y2="317.052" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint25_linear_45_26095" x1="319.052" y1="28.1899" x2="319.052" y2="113.014" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint26_linear_45_26095" x1="235.864" y1="287.249" x2="235.864" y2="372.074" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint27_linear_45_26095" x1="14.7549" y1="278.078" x2="14.7549" y2="362.903" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint28_linear_45_26095" x1="170.192" y1="74.0415" x2="170.192" y2="158.866" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="svg834101850_35656_paint29_linear_45_26095" x1="242.435" y1="129.062" x2="242.435" y2="213.887" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white"></stop>
+    <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+    </defs>
+    </svg>
+  </div>
+
+    
     <script src="https://kit.fontawesome.com/31f79387f2.js" crossorigin="anonymous"></script>
+
     <script>
       const t1 = performance.now();
-let nav = document.querySelector('.nav');
-var navbar = document.querySelector('.navbar');
-document.addEventListener( 'scroll', function(){
-    if(window.scrollY > 0 ) {
+      let nav = document.querySelector('.nav');
+      var navbar = document.querySelector('.navbar');
+      document.addEventListener( 'scroll', function(){
+        if(window.scrollY > 0 ) {
         if ( nav && navbar) {
             nav.classList.add('scrolled')
             nav.style.position = 'sticky';
             nav.style.top= '-1px';
         }
-    }
+      }
         else{
             if (nav,navbar) {
                 nav.classList.remove('scrolled')
@@ -1703,18 +1964,18 @@ document.addEventListener( 'scroll', function(){
                 nav.style.position = 'static';
             }
         }
-} );
-const t2 = performance.now();
-console.log("This took " + (t2-t1) + "  ms");
+      } );
+      const t2 = performance.now();
+      console.log("This took " + (t2-t1) + "  ms");
 
 
 
-window.addEventListener('scroll', function () {
-    var card =document.querySelector('.card');
-    var cardNav =document.querySelector('.card-nav');
-    const cardSection = card.getBoundingClientRect();
+      window.addEventListener('scroll', function () {
+      var card =document.querySelector('.all-cards');
+      var cardNav =document.querySelector('.card-nav');
+      const cardSection = card.getBoundingClientRect();
 
-    if(cardSection.top <= 0 && cardSection.bottom>0){
+      if(cardSection.top <= 0 && cardSection.bottom>0){
         if(cardNav){
             cardNav.classList.add('card-nav-op');
             
@@ -1722,36 +1983,36 @@ window.addEventListener('scroll', function () {
             cardNav.style.top ='-30px';
             cardNav.style.animation
         }
-    }
-    else{
+      }
+      else{
         cardNav.classList.add('card-nav-not-op');
         cardNav.classList.remove('card-nav-op');
-    }
+      }
     
-});
+      });
 
-let sideBar = document.querySelector(".side-bar");
-let asideSection = document.querySelector(".aside-section");
-let closeAside = document.querySelector("#close");
-let overlay = document.querySelector(".overlay");
+      let sideBar = document.querySelector(".side-bar");
+      let asideSection = document.querySelector(".aside-section");
+      let closeAside = document.querySelector("#close");
+      let overlay = document.querySelector(".overlay");
 
 
-sideBar.addEventListener("click",() =>{
-    asideSection.classList.add("active");
-    overlay.classList.add("overlayactive")
-    asideSection.classList.add("animation");
-    nav.classList.add('bg')
-    sideBar.classList.add("remove");
-    closeAside.classList.add("active");
-})
-closeAside.addEventListener("click",() =>{
-    asideSection.classList.remove("active");
-    overlay.classList.remove('overlayactive');
-    asideSection.classList.remove("animation");
-    nav.classList.remove('bg')
-    sideBar.classList.remove("remove");
-    closeAside.classList.remove("active");
-})
+    sideBar.addEventListener("click",() =>{
+      asideSection.classList.add("active");
+      overlay.classList.add("overlayactive")
+      asideSection.classList.add("animation");
+      nav.classList.add('bg')
+      sideBar.classList.add("remove");
+      closeAside.classList.add("active");
+    })
+    closeAside.addEventListener("click",() =>{
+      asideSection.classList.remove("active");
+      overlay.classList.remove('overlayactive');
+      asideSection.classList.remove("animation");
+      nav.classList.remove('bg')
+      sideBar.classList.remove("remove");
+      closeAside.classList.remove("active");
+    })
 
     </script>
 </body>
