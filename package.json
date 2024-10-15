@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "react-scripts build",
+    "deploy": "npm run build && netlify deploy --prod"
   },
   "author": "",
   "license": "ISC",
@@ -12,4 +14,6 @@
     "postcss": "^8.4.44",
     "tailwindcss": "^3.4.10"
   }
+  
+
 }
